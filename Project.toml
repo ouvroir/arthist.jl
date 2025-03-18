@@ -1,0 +1,13 @@
+name = "arthist"
+uuid = "e180ef8d-c7be-49a5-9c9c-dc9a1ba1103a"
+authors = ["Emmanuel Château-Dutier <emchateau@laposte.net> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
