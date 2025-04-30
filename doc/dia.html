@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="robots" content="noindex, nofollow" />
+
+        <!-- Métadonnées -->
+        $for(author-meta)$
+        <meta name="author" content="$author-meta$" />
+        $endfor$ $if(date-meta)$
+        <meta name="dcterms.date" content="$date-meta$" />
+        $endif$ $if(keywords)$
+        <meta
+            name="keywords"
+            content="$for(keywords)$$keywords$$sep$, $endfor$"
+        />
+        $endif$ $if(description-meta)$
+        <meta name="description" content="$description-meta$" />
+        $endif$
+
+        <!-- Gif transparent le plus petit qui soit, évite une requête inutile vers le serveur (et une erreur dans la console). -->
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+
+        <!-- Feuilles de style -->
+        <!-- Général -->
+        <link rel="stylesheet" href="style/general/reset.css" />
+        <link rel="stylesheet" href="style/general/variables.css" />
+        <link rel="stylesheet" href="style/general/global.css" />
+        <!-- Polices -->
+        <link
+            rel="stylesheet"
+            href="fonts/overused-grotesk/overused-grotesk.css"
+        />
+        <!-- Dispositions de page -->
+        <link rel="stylesheet" href="style/layout/page-layout.css" />
+        <!-- Composants -->
+        <link rel="stylesheet" href="style/components/prose.css" />
+        <link
+            rel="stylesheet"
+            href="style/components/conteneur-diapositives.css"
+        />
+
+        <!-- Styleguide (demo only) -->
+        <link rel="stylesheet" href="style/components/styleguide.css" />
+
+        <link rel="stylesheet" href="lib/reveal.js-5.0.3/dist/reveal.css" />
+        <link rel="stylesheet" href="style/components/theme.reveal.css" />
+        <link
+            rel="stylesheet"
+            href="lib/reveal.js-5.0.3/plugin/highlight/monokai.css"
+        />
+    </head>
+    <body>
+        <!-- .page-layout pourrait être appliqué sur le body (ici c'est pour le guide) -->
+        <div class="page-layout">
+            <header>
+                <!-- Logo etc. -->
+            </header>
+
+            <main class="page-layout__main">
+                <div class="page-layout__infra">Zone infra</div>
+
+                <article class="page-layout__content">
+                    <div class="prose">
+                        <h1>
+                            $if(title-prefix)$$title-prefix$ –
+                            $endif$$pagetitle$
+                        </h1>
+
+                        <details open class="conteneur-diapositives">
+                            <summary class="conteneur-diapositives-etiquette">
+                                Diapositives
+                            </summary>
+
+                            <div
+                                class="reveal"
+                                style="width: 100%; aspect-ratio: 16 / 9"
+                            >
+                                <div class="slides">
+                                    <!-- Diapositives insérées ici -->
+                                </div>
+                            </div>
+                        </details>
+
+                        <p>
+                            Le diaporama utilise la bibliothèque
+                            <a href="https://revealjs.com/" target="_blank"
+                                >Reveal.js</a
+                            >
+                            (cliquez dans le cadre, puis appuyez sur la touche
+                            <code>f</code> pour lancer le mode plein écran).
+                        </p>
+
+                        <!-- -->
+                        $body$
+                    </div>
+                </article>
+                <div class="page-layout__extra">Zone extra</div>
+            </main>
+
+            <footer>
+                <!-- Mentions légales, liens, etc. -->
+            </footer>
+
+            <!-- Scripts -->
+            <script src="lib/reveal.js-5.0.3/dist/reveal.js"></script>
+            <script src="scripts/diapositives.js"></script>
+            <script src="lib/reveal.js-5.0.3/plugin/highlight/highlight.js"></script>
+            <!-- <script>
+                Reveal.initialize({
+                    plugins: [RevealHighlight],
+                });
+            </script> -->
+        </div>
+    </body>
+</html>

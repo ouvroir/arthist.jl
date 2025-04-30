@@ -5,6 +5,7 @@ version = "1.0.0-DEV"
 
 [deps]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 JSONTables = "b9914132-a727-11e9-1322-f18e41205b0b"
 Languages = "8ef0a80b-9436-5d2c-a485-80b904378c43"
@@ -14,6 +15,7 @@ WordCloud = "6385f0a0-cb03-45b6-9089-4e0acc74b26b"
 
 [compat]
 DataFrames = "1.7.0"
+HTTP = "1.10.16"
 JSON = "0.21.4"
 JSONTables = "1.0.3"
 Languages = "0.4.6"

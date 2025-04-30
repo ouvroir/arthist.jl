@@ -1,0 +1,246 @@
+{
+  "repositories" : [
+    {
+        "shortname" : "carleton",
+        "name" : "Carleton University",
+        "province" : "Ontario",
+        "city" : "Ottawa",
+        "coordonates" : {
+            "latitude" : 45.4215,
+            "longitude" : -75.6972
+        },
+        "repository" : "https://repository.library.carleton.ca",
+        "oaipmh" : "https://repository.library.carleton.ca/catalog/oai",
+        "thesis-set" : "Collection:Theses_and_Dissertations",
+        "metadataPrefix" : "oai_etdms",
+        "exemple" : "https://repository.library.carleton.ca/catalog/oai?verb=GetRecord&metadataPrefix=oai_etdms&identifier=oai:repository.library.carleton.ca:6682x4758"
+    },
+    {
+        "shortname" : "concordia",
+        "name" : "Concordia University",
+        "province" : "Quebec",
+        "city" : "Montreal",
+        "coordonates" : {
+            "latitude" : 45.4942,
+            "longitude" : -73.5784
+        },
+        "repository" : "https://spectrum.library.concordia.ca",
+        "oaipmh" : "https://spectrum.library.concordia.ca/cgi/oai2",
+        "thesis-set" : "74797065733D746865736973",
+        "metadataPrefix" : "oai_etdms",
+        "exemple" : "https://spectrum.library.concordia.ca/cgi/oai2?verb=ListRecords&metadataPrefix=oai_etdms&set=74797065733D746865736973"
+    },
+    {
+        "shortname" : "uottawa",
+        "name" : "Université d’Ottawa",
+        "province" : "Ontario",
+        "city" : "Ottawa",
+        "coordonates" : {
+            "latitude" : 45.4235,
+            "longitude" : -75.6972
+        },
+        "repository" : "https://ruor.uottawa.ca",
+        "oaipmh" : "https://repository.rudn.ru/oai2",
+        "thesis-set" : "Record:Dissertation",
+        "metadataPrefix" :"oai_dc",
+        "exemple" : "https://repository.rudn.ru/oai2?verb=ListRecords&metadataPrefix=oai_dc&set=Record:Dissertation"
+    },
+    {
+        "shortname" : "mcgill",
+        "name" : "McGill University",
+        "province" : "Quebec",
+        "city" : "Montreal", 
+        "coordonates" : {
+            "latitude" : 45.5048,
+            "longitude" : -73.5772
+        },
+        "repository" : "https://escholarship.mcgill.ca",
+        "oaipmh" : "https://escholarship.mcgill.ca/catalog/oai",
+        "thesis-set" : "DocumentType:Thesis",
+        "metadataPrefix" : "oai_etdms",
+        "exemple" : "https://escholarship.mcgill.ca/catalog/oai?verb=ListRecords&metadataPrefix=oai_etdms&set=DocumentType:Thesis"
+
+    },
+    {
+        "shortname" : "ocadu",
+        "name" : "OCAD University",
+        "province" : "Ontario",
+        "city" : "Toronto",
+        "coordonates" : {
+            "latitude" : 43.6532,
+            "longitude" : -79.3832
+        },
+        "repository" : "https://openresearch.ocadu.ca",
+        "oaipmh" : "http://openresearch.ocadu.ca/cgi/oai",
+        "thesis-set" : "",
+        "metadataPrefix" : "",
+        "exemple" : ""
+    },
+    {
+        "shortname" : "queensu",
+        "name" : "Queen’s University",
+        "province" : "Ontario",
+        "city" : "Kingston",
+        "coordonates" : {
+            "latitude" : 44.2279,
+            "longitude" : -76.4858
+        },
+        "repository" : "https://qspace.library.queensu.ca",
+        "oaipmh" : "https://qspace.library.queensu.ca/oai/request",
+        "thesis-set" : "",
+        "metadataPrefix" : "",
+        "exemple" : ""
+    },
+    {
+        "shortname" : "ulaval",
+        "name" : "Université Laval",
+        "province" : "Quebec",
+        "city" : "Quebec City",
+        "coordonates" : {
+            "latitude" : 46.8045,
+            "longitude" : -71.2542
+        },
+        "repository" : "https://corpus.ulaval.ca",
+        "oaipmh" : "https://corpus.ulaval.ca/oai/request",
+        "thesis-set" : "col_20.500.11794_17461",
+        "metadataPrefix" : "etdms",
+        "exemple" : "https://corpus.ulaval.ca/oai/request?verb=ListRecords&metadataPrefix=etdms11&set=col_20.500.11794_17461"
+    },
+    {
+        "shortname" : "umontreal",
+        "name" : "Université de Montréal",
+        "province" : "Quebec",
+        "city" : "Montreal",
+        "coordonates" : {
+            "latitude" : 45.5017,
+            "longitude" : -73.5673
+        },
+        "repository" : "https://papyrus.bib.umontreal.ca",
+        "oaipmh" : "https://umontreal.scholaris.ca/server/oai/request",
+        "thesis-set" : "col_1866_3000",
+        "metadataPrefix" : "oai_etdms",
+        "exemple" : "https://umontreal.scholaris.ca/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=col_1866_3000"
+    },
+    {
+        "shortname" : "uqam",
+        "name" : "Université du Québec à Montréal",
+        "province" : "Quebec",
+        "city" : "Montreal",
+        "coordonates" : {
+            "latitude" : 45.5088,
+            "longitude" : -73.5617
+        },
+        "repository" : "https://archipel.uqam.ca",
+        "oaipmh" : "https://archipel.uqam.ca/cgi/oai2",
+        "thesis-set" : "74797065733D746865736973",
+        "metadataPrefix" : "oai_dc",
+        "exemple" : "https://archipel.uqam.ca/cgi/oai2?verb=ListRecords&metadataPrefix=oai_dc&set=74797065733D746865736973"
+    },
+    {
+        "shortname" : "ualberta",
+        "name" : "University of Alberta",
+        "province" : "Alberta",
+        "city" : "Edmonton",
+        "coordonates" : {
+            "latitude" : 53.5444,
+            "longitude" : -113.4909
+        },
+        "repository" : "https://era.library.ualberta.ca",
+        "oaipmh" : "https://era.library.ualberta.ca/oai",
+        "thesis-set" : "",
+        "metadataPrefix" : "",
+        "exemple" : ""
+    },
+    {
+        "shortname" : "ubc",
+        "name" : "University of British Columbia",
+        "province" : "British Columbia",
+        "city" : "Vancouver",
+        "coordonates" : {
+            "latitude" : 49.2827,
+            "longitude" : -123.1207
+        },
+        "repository" : "https://open.library.ubc.ca/cIRcle/collections/ubctheses",
+        "oaipmh" : "https://oce-index.library.ubc.ca/oai",
+        "thesis-set" : "",
+        "metadataPrefix" : "",
+        "exemple" : ""
+
+    },
+    {
+        "shortname" : "uoguelph",
+        "name" : "University of Guelph",
+        "province" : "Ontario",
+        "city" : "Guelph",
+        "coordonates" : {
+            "latitude" : 43.5321,
+            "longitude" : -80.2265
+        },
+        "repository" : "https://atrium.lib.uoguelph.ca",
+        "oaipmh" : "https://atrium.lib.uoguelph.ca/server/oai",
+        "thesis-set" : "",
+        "metadataPrefix" : "",
+        "exemple" : ""
+    },
+    {
+        "shortname" : "utoronto",
+        "name" : "University of Toronto",
+        "province" : "Ontario",
+        "city" : "Toronto",
+        "coordonates" : {
+            "latitude" : 43.6532,
+            "longitude" : -79.3832
+        },
+        "repository" : "https://tspace.library.utoronto.ca",
+        "oaipmh" : "https://utoronto.scholaris.ca/server/oai",
+        "thesis-set" : "",
+        "metadataPrefix" : "",
+        "exemple" : ""
+    },
+    {
+        "shortname" : "uvic",
+        "name" : "University of Victoria",
+        "province" : "British Columbia",
+        "city" : "Victoria",
+        "coordonates" : {
+            "latitude" : 48.4284,
+            "longitude" : -123.3656
+        },
+        "repository" : "https://dspace.library.uvic.ca",
+        "oaipmh" : "https://dspace.library.uvic.ca/server/oai/request",
+        "thesis-set" : "",
+        "metadataPrefix" : "",
+        "exemple" : ""
+    },
+    {
+        "shortname" : "uwo",
+        "name" : "University of Western Ontario",
+        "province" : "Ontario",
+        "city" : "London",
+        "coordonates" : {
+            "latitude" : 43.0085,
+            "longitude" : -81.2731
+        },
+        "repository" : "https://ir.lib.uwo.ca",
+        "oaipmh" : "https://ir.lib.uwo.ca/do/oai",
+        "thesis-set" : "",
+        "metadataPrefix" : "",
+        "exemple" : ""
+    },
+    {
+        "shortname" : "yorku",
+        "name" : "York University",
+        "province" : "Ontario",
+        "city" : "Toronto",
+        "coordonates" : {
+            "latitude" : 43.7735,
+            "longitude" : -79.5019
+        },
+        "repository" : "https://yorkspace.library.yorku.ca",
+        "oaipmh" : "https://yorkspace.library.yorku.ca/server/oai/",
+        "thesis-set" : "com_10315_26310",
+        "metadataPrefix" : "oai_etdms",
+        "exemple" : ""
+    }
+  ]
+}
